@@ -101,7 +101,9 @@
 - As for the 'year', 'month', 'day' filtering requirements, I thought to split the 'date' column into those 3 columns, but then I found out Django can actually read and match the columns without needing to split it
 - I used PostgreSQL because I have experienced in using it before
 - I opt for Django because I think it's easier than Flask or FastAPI
-- For the dashboard, I use React because I had experience in using Axios for consuming the API
+- For the dashboard, I use React because I had experience in using Fetch() for consuming the API
+- I used client-side pagination because I want to make the pie chart to be generated based on a single API response
+- The pie chart is showing the item distribution based on the parameters/filters input by user
 
 # #2: Design and Scenarios
 
