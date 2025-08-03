@@ -67,7 +67,7 @@
 
 1. Go to the React dashboard folder:
    ```
-   cd ../task_3
+   cd task_3
    ```
 2. Install dependencies:
    ```
