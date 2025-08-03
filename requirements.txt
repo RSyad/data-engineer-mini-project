@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+dask
+prefect
+psycopg2-binary
+django
+djangorestframework
+django-cors-headers

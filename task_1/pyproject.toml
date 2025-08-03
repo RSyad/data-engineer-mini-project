@@ -1,0 +1,24 @@
+[project]
+name = "task_1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "RSyad",email = "syaads@yahoo.com.my"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "etl_workflow", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+pandas = "^1.4.2"
+psycopg2 = "^2.9.3"
+prefect = "^2.*"
