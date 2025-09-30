@@ -1,4 +1,4 @@
-# Data Engineering Mini Project
+# Data Engineer Mini Project
 
 ## Prerequisites
 
